@@ -1,0 +1,27 @@
+.-------------.
+| Xi / ||Xi|| |
+'-------------'
+      Xi in R^d
+
+       NORMALIZED FEATURE -------->.---.
+                                   | X |
+       NORMALIZED WEIGHTS -------->'---'
+                                     |
+                                     |
+                                     v
+                      ADDATIVE ANGULAR MARGIN PENALTY
+                                     |
+                                     v
+                                   LOGIT
+                                     |
+                                     |
+                                     v
+                                PROBABILITY
+                                     |
+                                     |
+                                     v
+                        GROUND TRUTH ONE HOT VECTOR
+                                     |
+                                     |
+                                     v
+                            CROSS-ENTOPHY LOSS
